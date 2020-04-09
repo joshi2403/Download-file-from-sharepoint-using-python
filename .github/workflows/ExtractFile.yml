@@ -8,7 +8,7 @@ from office365.sharepoint.client_context import ClientContext
 
 def get_excel():
     # Authentication
-    ctx_auth = AuthenticationContext(r"https://unilever.sharepoint.com/")
+    ctx_auth = AuthenticationContext(r"https://Domain.sharepoint.com/")
 
     # Get Access Token
     ctx_auth.acquire_token_for_user("Username@domain.com", "Password")
